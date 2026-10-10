@@ -883,7 +883,7 @@ footer {
 
 .featured-title {
     text-align: center;
-    color: #00f5f5;
+    color: #b9314d;
     font-size: 28px;
     margin-bottom: 35px;
 }
@@ -905,7 +905,7 @@ footer {
 }
 
 .featured-card:hover {
-    border-color: #00eeee;
+    border-color: #bf0a66;
     box-shadow: 0 0 18px rgba(0, 238, 238, 0.35);
     transform: translateY(-3px);
 }
@@ -921,7 +921,7 @@ footer {
 }
 
 .project-preview i {
-    color: #00f5f5;
+    color: #168cff;
     font-size: 32px;
 }
 
@@ -955,7 +955,7 @@ footer {
 }
 
 .project-content h3 {
-    color: #00f5f5;
+    color:#168cff;
     font-size: 18px;
     margin: 14px 0 10px;
 }
@@ -975,7 +975,7 @@ footer {
 
 .tech-tags span {
     border: 1px solid #07596a;
-    color: #00eeee;
+    color: #168cff;
     background: #09232e;
     border-radius: 20px;
     padding: 4px 8px;
@@ -986,7 +986,7 @@ footer {
     display: inline-block;
     margin-top: 12px;
     padding: 9px 13px;
-    background: #00edc5;
+    background: #168cff;
     color: #06111a;
     border-radius: 22px;
     text-decoration: none;
@@ -995,7 +995,7 @@ footer {
 }
 
 .github-btn:hover {
-    background: #00ffff;
+    background: #00c8ff;
 }
 
 @media (max-width: 700px) {
@@ -1019,7 +1019,7 @@ footer {
 
 .featured-title {
     text-align: center;
-    color: #00f5f5;
+    color: #00c8ff;
     font-size: 28px;
     font-weight: 800;
     margin: 0 0 35px;
@@ -1047,7 +1047,7 @@ footer {
 
 .featured-card:hover {
     transform: translateY(-4px);
-    border-color: #00eeee;
+    border-color: #00c8ff;
     box-shadow: 0 0 20px rgba(0, 238, 238, 0.35);
 }
 
@@ -1065,7 +1065,7 @@ footer {
 
 .project-preview i {
     font-size: 32px;
-    color: #00f5f5;
+    color: #00c8ff;
 }
 
 .project-preview h4 {
@@ -1106,7 +1106,7 @@ footer {
 }
 
 .project-content h3 {
-    color: #00f5f5;
+    color: #00c8ff;
     font-size: 17px;
     margin: 0 0 10px;
 }
@@ -1128,7 +1128,7 @@ footer {
 
 .tech-tags span {
     background: #09232e;
-    color: #00eeee;
+    color: #00c8ff;
     border: 1px solid #07596a;
     border-radius: 20px;
     padding: 4px 8px;
@@ -1151,7 +1151,7 @@ footer {
 }
 
 .github-btn:hover {
-    background: #00ffff;
+    background: #00c8ff;
     box-shadow: 0 0 15px rgba(0, 255, 255, 0.4);
 }
 
