@@ -857,3 +857,154 @@ footer {
     border-radius: 20px;
     display: block;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```css
+/* Featured Projects - Reference Design */
+
+.featured-projects {
+    background: #060918;
+    padding: 35px 20px 55px;
+    color: #f5f7ff;
+}
+
+.featured-title {
+    text-align: center;
+    color: #00f5f5;
+    font-size: 28px;
+    margin-bottom: 35px;
+}
+
+.featured-grid {
+    max-width: 1250px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 15px;
+}
+
+.featured-card {
+    background: #121522;
+    border: 1px solid #282d40;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+.featured-card:hover {
+    border-color: #00eeee;
+    box-shadow: 0 0 18px rgba(0, 238, 238, 0.35);
+    transform: translateY(-3px);
+}
+
+.project-preview {
+    height: 145px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    background: linear-gradient(120deg, #092332, #201033);
+}
+
+.project-preview i {
+    color: #00f5f5;
+    font-size: 32px;
+}
+
+.project-preview h4 {
+    margin: 0;
+    color: #e9ecff;
+    font-size: 14px;
+}
+
+.study-preview {
+    background: linear-gradient(120deg, #10233a, #211037);
+}
+
+.blood-preview {
+    background: linear-gradient(120deg, #26172e, #40172a);
+}
+
+.portfolio-preview {
+    background: linear-gradient(120deg, #092332, #201033);
+}
+
+.project-content {
+    padding: 20px 15px;
+}
+
+.project-category {
+    color: #ff00d4;
+    font-size: 9px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.project-content h3 {
+    color: #00f5f5;
+    font-size: 18px;
+    margin: 14px 0 10px;
+}
+
+.project-content p {
+    color: #c3c8d7;
+    font-size: 12px;
+    line-height: 1.7;
+    margin-bottom: 12px;
+}
+
+.tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.tech-tags span {
+    border: 1px solid #07596a;
+    color: #00eeee;
+    background: #09232e;
+    border-radius: 20px;
+    padding: 4px 8px;
+    font-size: 9px;
+}
+
+.github-btn {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 9px 13px;
+    background: #00edc5;
+    color: #06111a;
+    border-radius: 22px;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.github-btn:hover {
+    background: #00ffff;
+}
+
+@media (max-width: 700px) {
+    .featured-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .featured-title {
+        font-size: 24px;
+    }
+}
+```
