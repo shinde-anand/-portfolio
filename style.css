@@ -1284,3 +1284,125 @@ footer {
         max-height: 300px;
     }
 }
+
+
+
+/* ========== MOBILE RESPONSIVE FIX ========== */
+
+@media screen and (max-width: 768px) {
+
+    /* General layout */
+    .section {
+        padding: 50px 5%;
+    }
+
+    /* Navbar */
+    nav,
+    .navbar {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    nav ul,
+    .navbar ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+        padding: 0;
+    }
+
+    nav ul li,
+    .navbar ul li {
+        list-style: none;
+    }
+
+    /* Home section */
+    .home,
+    #home {
+        flex-direction: column;
+        text-align: center;
+        gap: 25px;
+    }
+
+    /* About section */
+    .about-container,
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Skills */
+    .skills-container,
+    .skills-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    /* Project cards */
+    .featured-grid,
+    .projects-container {
+        grid-template-columns: 1fr;
+    }
+
+    .featured-card,
+    .project {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* College section */
+    #college .college-card {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 20px;
+    }
+
+    #college .college-info,
+    #college .college-image {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #college .college-image img {
+        width: 100%;
+        height: auto;
+        max-height: 300px;
+        object-fit: cover;
+    }
+
+    /* Images */
+    img {
+        max-width: 100%;
+    }
+
+    /* Prevent horizontal scrolling */
+    body {
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .skills-container,
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    h1 {
+        font-size: clamp(28px, 8vw, 40px);
+    }
+
+    h2 {
+        font-size: clamp(23px, 6vw, 32px);
+    }
+
+    .featured-title {
+        font-size: 25px;
+    }
+
+    .college-website-btn {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
