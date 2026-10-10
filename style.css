@@ -1200,3 +1200,87 @@ footer {
     box-shadow: 0 0 15px rgba(8, 123, 255, 0.4);
 }
 ```
+
+
+
+
+/* ================= MY COLLEGE ================= */
+
+.college-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 25px;
+    overflow: hidden;
+}
+
+.college-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.college-info h3 {
+    margin-bottom: 15px;
+}
+
+.college-info p {
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.college-info label {
+    display: inline-block;
+    margin: 5px 5px 10px 0;
+    padding: 7px 12px;
+    border-radius: 20px;
+    background: rgba(0, 217, 255, 0.1);
+    color: #00d9ff;
+    font-size: 12px;
+}
+
+.college-image {
+    flex: 1;
+    min-width: 0;
+}
+
+.college-image img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    border-radius: 15px;
+    border: 2px solid #087bff;
+}
+
+.college-website-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 11px 20px;
+    background: #087bff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 13px;
+    font-weight: 700;
+    transition: 0.3s ease;
+}
+
+.college-website-btn:hover {
+    background: #0056d6;
+    box-shadow: 0 0 15px rgba(8, 123, 255, 0.4);
+}
+
+/* Mobile Responsive */
+@media (max-width: 700px) {
+    .college-card {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .college-image img {
+        height: auto;
+        max-height: 300px;
+    }
+}
