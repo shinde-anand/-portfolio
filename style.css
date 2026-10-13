@@ -1582,3 +1582,60 @@ footer {
     }
 }
 
+
+
+
+/* ===== INTERACTIVE GIRL ===== */
+
+.interactive-character {
+    position: absolute;
+    left: 0;
+    bottom: 35px;
+    width: 190px;
+    z-index: 30;
+    text-align: center;
+    animation: girlFloat 3s ease-in-out infinite;
+    pointer-events: none;
+}
+
+.interactive-character svg {
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    filter: drop-shadow(0 0 12px rgba(0, 200, 255, 0.2));
+}
+
+.character-caption {
+    margin-top: 5px;
+    font-size: 11px;
+    font-weight: 600;
+    color: #aebaff;
+}
+
+.girl-eye {
+    transition: transform 100ms ease-out;
+}
+
+@keyframes girlFloat {
+    0%, 100% {
+        translate: 0 0;
+    }
+    50% {
+        translate: 0 -7px;
+    }
+}
+
+@media (max-width: 900px) {
+    .interactive-character {
+        width: 145px;
+        left: 0;
+        bottom: 20px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .interactive-character {
+        animation: none;
+    }
+}
