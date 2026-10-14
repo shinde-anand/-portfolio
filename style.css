@@ -1639,3 +1639,45 @@ footer {
         animation: none;
     }
 }
+
+/* ===== REALISTIC BOY DEVELOPER ===== */
+
+.boy-developer {
+    width: min(100%, 380px);
+    flex-shrink: 0;
+    text-align: center;
+    position: relative;
+    animation: boyFloat 4s ease-in-out infinite;
+}
+
+.boy-developer img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    filter: drop-shadow(0 0 25px rgba(0, 200, 255, .22));
+}
+
+.boy-developer p {
+    color: #aebaff;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+@keyframes boyFloat {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
+}
+
+@media (max-width: 900px) {
+    .boy-developer {
+        width: min(100%, 320px);
+        margin: 20px auto;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .boy-developer {
+        animation: none;
+    }
+}
