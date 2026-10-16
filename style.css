@@ -1692,3 +1692,44 @@ background-image: linear-gradient(
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
+
+
+
+
+
+
+
+
+
+/* Neon developer image - Home hero background */
+.hero {
+    position: relative;
+    isolation: isolate;
+    background-image:
+        linear-gradient(
+            90deg,
+            rgba(3, 5, 20, 0.88) 0%,
+            rgba(3, 5, 20, 0.48) 55%,
+            rgba(3, 5, 20, 0.18) 100%
+        ),
+        url("smart-attendance-background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 650px;
+}
+
+/* Keep your existing hero content above the background */
+.hero-text,
+.hero .scene {
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        background-position: 60% center;
+        min-height: 600px;
+    }
+}
+
