@@ -1744,3 +1744,28 @@ background-repeat: no-repeat;
     }
 }
 
+
+.hero {
+    position: relative;
+    isolation: isolate;
+    background-image:
+        linear-gradient(
+            rgba(3, 5, 20, 0.45),
+            rgba(3, 5, 20, 0.45)
+        ),
+        url("./smart-attendance-background.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 650px;
+}
+
+
+
+@media (max-width: 768px) {
+    .hero {
+        background-attachment: scroll;
+    }
+}
+
