@@ -1681,3 +1681,14 @@ footer {
         animation: none;
     }
 }
+
+
+
+
+background-image: linear-gradient(
+    rgba(0, 0, 15, 0.35),
+    rgba(0, 0, 15, 0.45)
+), url("smart-attendance-background.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
