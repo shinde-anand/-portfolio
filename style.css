@@ -1697,6 +1697,17 @@ background-repeat: no-repeat;
 
 
 
+.hero {
+    position: relative;
+    background-image:
+        linear-gradient(rgba(0, 0, 20, 0.25), rgba(0, 0, 20, 0.25)),
+        url("smart-attendance-background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 650px;
+}
+
 
 
 
